@@ -39,26 +39,26 @@
 
   <!-- 以下是头部 -->
   <!-- <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top"> -->
-    <!-- 以下是头部两边套一下留出空间 -->
-    <div style="position:absolute; right: 5vw">
-      <!-- 以下是头部左侧点击跳转置顶 -->
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <!-- <a href="#" class="navbar-brand">Bid Now</a> -->
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </div>
+  <!-- 以下是头部两边套一下留出空间 -->
+  <div style="position:absolute; right: 5vw">
+    <!-- 以下是头部左侧点击跳转置顶 -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a href="#" class="navbar-brand">Bid Now</a> -->
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
   <!-- </nav> -->
 
 
   <!-- Content -->
   <!-- <div class="container-fluid"> -->
-    <div class="p-5 bg-light text-dark text-center text-sm-start" style="top:20vh; left:40vw; position:absolute">
-      <form method="post" action="post_item">
+  <div class="p-5 bg-light text-dark text-center text-sm-start" style="top:20vh; left:40vw; position:absolute">
+    <form method="post" action="post_item">
 
       <!-- Item name -->
       <div class="mb-3">
@@ -75,9 +75,15 @@
         <label for="itemDescription" class="form-label">Description</label>
         <textarea class="form-control" id="itemDescription" rows="3"></textarea>
       </div>
+      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option selected>Auction Time</option>
+        <option value="1">10 min</option>
+        <option value="2">20 min</option>
+        <option value="3">30 min</option>
+      </select>
       <button type="submit" class="btn btn-outline-warning">Post Item</button>
-      </form>
-    </div>
+    </form>
+  </div>
   <!-- </div> -->
   <!-- Content -->
 
