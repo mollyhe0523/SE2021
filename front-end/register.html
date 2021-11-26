@@ -38,7 +38,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-									<input type="email" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+									<input type="email" class="form-control" name="email" id="email"required placeholder="Enter your Email"/>
 								</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="password" id="pwdId" pattern="^[A-Za-z0-9]$" required placeholder="Enter your Password"/>
+									<input type="password" class="form-control" name="password" id="pwdId" pattern="^(?=.*[a-z])(?=.*[0-9]).{1,}$" required placeholder="Enter your Password"/>
                 </div>
                 <div>* Characters and/or numeric digits allowed.</div>
 							</div>
@@ -69,7 +69,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="confirm" id="cPwdId" pattern="^[A-Za-z0-9]$" required placeholder="Confirm your Password"/>
+									<input type="password" class="form-control" name="confirm" id="cPwdId" required placeholder="Confirm your Password"/>
                 </div>
                 <div id="cPwdValid" class="valid-feedback"></div>
                 <div id="cPwdInvalid" class="invalid-feedback"></div>
