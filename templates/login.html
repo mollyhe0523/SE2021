@@ -3,7 +3,7 @@
 
 <head>
   <title>Bid Now</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/static/styles/style.css">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -24,11 +24,11 @@
               </div>
           </div>
     <!-- Login Form -->
-    <form method="post" action="cus_login">
+    <form method="post" action="/cus_login">
       <label for="username"></label>
-      <input type="text" id="username" class="fadeIn second" name="login" placeholder="username" required>
+      <input type="text" id="username" class="fadeIn second" name="username" placeholder="username" required>
       <label for="password"></label>
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password" required>
+      <input type="text" id="password" class="fadeIn third" name="password" placeholder="password" required>
       <input type="submit" class="fadeIn fourth" value="Log In">
     </form>
     <!-- Catch error -->
@@ -38,7 +38,7 @@
     <!-- Catch error -->
     <!-- Register-->
     <div id="formFooter">
-      <a class="underlineHover" href="/register.html">Register</a>
+      <a class="underlineHover" href="/register">Register</a>
     </div>
 
   </div>
